@@ -81,21 +81,27 @@ input {
     border: none;
     box-shadow: none;
     margin-top: 40px;
+    /* transform: translatex(30px); */
+    margin-left: 15px;
     transform: translateY(-30px);
 }
 .screen {
     justify-content: flex-start;
 }
 .container {
-    gap: 30px;
+    gap: 40px;
     height: none;
 }
 button {
     transform: translateY(-30px);
-    width: 45px;
-    height: 45px;
+    width: 55px;
+    height: 55px;
+    margin-inline: 10px;
     border-radius: 50%;
     font-size: 0.7rem;
+}
+.row {
+    margin-inline: auto;
 }
 body {
     /* padding: 20px; */
@@ -107,7 +113,7 @@ body {
 }
 .equal {
     border-radius: 24px;
-    width: 110px;
+    width: 120px;
 }
 
 
